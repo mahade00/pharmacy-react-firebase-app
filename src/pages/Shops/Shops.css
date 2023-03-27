@@ -1,0 +1,14 @@
+.shops-main{
+    margin:0 85px 0 85px;
+}
+.shops-main h2{
+    color:#0D6EFD;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.shops{    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}

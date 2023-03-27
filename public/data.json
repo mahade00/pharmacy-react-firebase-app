@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "CEEVIT 250MG Tab",
+    "Generic Name": "VITAMIN C",
+    "type": "Tablet",
+    "image": "https://www.lazzpharma.com/Content/ImageData/Product/Orginal/61b8fb4a-3430-4aae-bbcd-bca84e815705/CEEVIT%20CEEVIT%20250MG%20250MG%20Tab.webp",
+    "company": "SQUARE PHARMACEUTICALS LIMITED",
+    "price": "1.9tk",
+    "description": "Ceevit® is indicated for prevention and treatment of scurvy. It may be indicated in pregnancy, lactation, infection, trauma, burns, cold exposure, following surgery, fever, stress, peptic ulcer, cancer, methaemoglobinaemia and in infants receiving unfortified formulas."
+  },
+  {
+    "id": 2,
+    "name": "COMET XR 1 GM Tab",
+    "Generic Name": "COMET XR 1 GM Tab",
+    "type": "Tablet",
+    "image": "https://www.lazzpharma.com/Content/ImageData/Product/Orginal/100e70f5-f3ec-4844-ad5a-a7be3deacdb2/COMET%20XR%20COMET%20XR%201%20GM%201%20GM%20Tab.webp",
+    "company": "SQUARE PHARMACEUTICALS LIMITED",
+    "price": "9.03tk",
+    "description": "Metformin is a biguanide type oral antihyperglycemic drug used in the management of type 2 diabetes. It lowers both basal and postprandial plasma glucose. Its mechanism of action is different from those of sulfonylureas and it does not produce hypoglycemia. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose and improves insulin sensitivity by an increase in peripheral glucose uptake and utilization."
+  },
+  {
+    "id": 3,
+    "name": "RESADOL  Tab",
+    "Generic Name": " PARACETAMOL+TRAMADOL",
+    "type": "Tablet",
+    "image": "https://www.lazzpharma.com/Content/ImageData/Product/Orginal/7ef9b6e4-47f6-464c-81d3-ddd49e46f15c/RESADOL%20RESADOL%20,%20,%20Tab.webp",
+    "company": "BEXIMCO PHARMACEUTICALS LTD",
+    "price": "8tk",
+    "description": "RESADOL  Tab is a non-opiate, non-salicylate analgesic. Tramadol is a centrally acting synthetic opioid analgesic. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to m-opioid receptors and weak inhibition of reuptake of nor-epinephrine and serotonin."
+  },
+  {
+    "id": 4,
+    "name": "NAPADOL 325MG/37.5MG Tab",
+    "Generic Name": " PARACETAMOL+TRAMADOL",
+    "type": "Tablet",
+    "image": "https://www.lazzpharma.com/Content/ImageData/Product/Orginal/77bf0117-1c0e-496e-9372-da732b46840d/NAPADOL%20NAPADOL%20325MG/37.5MG%20325MG/37.5MG%20Tab.webp",
+    "company": "BEXIMCO PHARMACEUTICALS LTD",
+    "price": "8tk",
+    "description": "NAPADOL 325MG/37.5MG Tab is a non-opiate, non-salicylate analgesic. Tramadol is a centrally acting synthetic opioid analgesic. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to m-opioid receptors and weak inhibition of reuptake of nor-epinephrine and serotonin."
+  },
+  {
+    "id": 5,
+    "name": "MONAS 4 MG Tab",
+    "Generic Name": " MONTELUKAST",
+    "type": "Tablet",
+    "image": "https://www.lazzpharma.com/Content/ImageData/Product/Orginal/d1274485-7de6-493a-ae75-95a3ff292e2d/MONAS%20MONAS%204%20MG%204%20MG%20Tab.webp",
+    "company": "ACME LABORATORIES LTD",
+    "price": "6.04tk",
+    "description": "MONAS 4 MG Tab is a non-opiate, non-salicylate analgesic. Tramadol is a centrally acting synthetic opioid analgesic. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to m-opioid receptors and weak inhibition of reuptake of nor-epinephrine and serotonin."
+  },
+  {
+    "id": 6,
+    "name": "A-PHENICOL 10 ML Eye Drop",
+    "Generic Name": " CHLORAMPHENICOL 0.5%",
+    "type": "Eye Drop",
+    "image": "https://www.lazzpharma.com/Content/ImageData/Product/Orginal/d59d0213-cde2-460f-9e89-4e7389591fa3/A-PHENICOL%20A-PHENICOL%2010%20ML%2010%20ML%20Eye%20Drop.webp",
+    "company": "ACME LABORATORIES LTD",
+    "price": "34.5tk",
+    "description": "A-PHENICOL 10 ML Eye Drop is a non-opiate, non-salicylate analgesic. Tramadol is a centrally acting synthetic opioid analgesic. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to m-opioid receptors and weak inhibition of reuptake of nor-epinephrine and serotonin."
+  }
+]

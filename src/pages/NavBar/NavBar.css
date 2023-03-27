@@ -1,0 +1,23 @@
+.nav{
+    
+}
+.navs{
+    color: white;
+}
+.navs:hover{
+    color:black;
+}
+
+
+.shop-Icon{
+    color: whitesmoke;
+}
+.btn-login{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #0D6EFD;
+    color: white;
+}
+.btn-login:hover{
+    color: black;
+}
