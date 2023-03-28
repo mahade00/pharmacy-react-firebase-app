@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './pages/NavBar/NavBar';
 import Header from './pages/Header/Header'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Shop from './pages/Shop/Shop';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <BrowserRouter>
         
         <Routes>
-          <Route path='/' element={<Header/>} />
+          <Route path='/' element={<Header />} />
+          
          
           </Routes>
       </BrowserRouter>

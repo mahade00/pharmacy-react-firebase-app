@@ -1,0 +1,55 @@
+.services-main h2 {
+    color: #0D6EFD;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.services img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: 0.5s all ease-in-out;
+}
+ .services-each:hover img {
+     transform: scale(1.1);
+ }
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 92px 0 137px;
+
+}
+
+.services-each {
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding:15px 10px 10px 10px;
+    margin: 0 50px 50px 0;
+    background-color: #dbe6f6;
+}
+
+.services-each p{
+    color: darkcyan;
+}
+
+.services-each h4{
+    color: coral;
+}
+
+/* responsive */
+@media only screen and (max-width:688px) {
+    .services {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left:29px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left:120px;
+    }
+}

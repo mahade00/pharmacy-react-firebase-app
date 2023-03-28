@@ -2,6 +2,7 @@
    border: 2px solid gray;
    border-radius: 30px;
    margin: 0 15px 15px 15px;
+   padding-bottom: 15px;
   
 }
 .shop img{
@@ -22,12 +23,13 @@ font-weight: bold;
 }
 
 .shop button{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border: none;
     border-radius: 10px;
     font-weight: bold;
     color:white;
     background-color: #0D6EFD;
+        border: 2px solid #0D6EFD;
 }
 .shop button:hover{
     background-color: white;

@@ -1,0 +1,38 @@
+.doctors-main h2{
+    color:#0D6EFD;
+    margin-bottom: 20px;
+}
+.doctors{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.doctors-each img{
+height: 300px;
+width: 250px;
+transition: 0.5s all ease-in-out;
+}
+ .doctors-each:hover img {
+     transform: scale(1.1);
+ }
+.doctors-each h4{
+    color: #0D6EFD;
+    padding-top: 10px;
+}
+.doctors-each p{
+    color:gray;
+}
+
+/* responsive */
+@media only screen and (max-width:688px) {
+    .doctors {
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-left: 29px; */
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .doctors {
+        grid-template-columns: repeat(2, 1fr);
+        /* margin-left: 12px; */
+    }
+}

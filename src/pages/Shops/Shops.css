@@ -1,5 +1,6 @@
 .shops-main{
     margin:0 85px 0 85px;
+   
 }
 .shops-main h2{
     color:#0D6EFD;
@@ -10,5 +11,18 @@
 .shops{    
     display: grid;
     grid-template-columns: repeat(3,1fr);
-   
+}
+
+/* responsive  */
+@media only screen and (max-width:688px) {
+    .shops{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left:-42px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .shops {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
