@@ -12,7 +12,7 @@ const Doctors = () => {
             <div className='doctors'>
                 <div className='doctors-each'>
                     <img src={Doctor1} />
-                    <h4> Ryamis Seikh</h4>
+                    <h4> Saba Hassan</h4>
                     <p>Anesthesiologist</p>
                 </div>
                 <div className='doctors-each'>

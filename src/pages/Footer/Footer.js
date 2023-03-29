@@ -5,8 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { Link as a } from 'react-router-dom';
-
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 const Footer = () => {
     return (
         <div className='footer-main'>
@@ -17,10 +16,10 @@ const Footer = () => {
                     <p>Contact Number: +88-017-45-999-699</p>
                     <p>e-mail: contact@yed.com</p>
                     <div className='footer-social'>
-                        <p className='footer-icon'><FacebookIcon className='footer-social-icon'/> </p>
-                        <p className='footer-icon'><LinkedInIcon className='footer-social-icon' /></p>
-                        <p className='footer-icon'><TwitterIcon  className='footer-social-icon'/></p>
-                        <p className='footer-icon'><WhatsAppIcon className='footer-social-icon'/></p>
+                        <a href='/'><p className='footer-icon'><FacebookIcon className='footer-social-icon'/> </p></a>
+                        <a href='/'><p className='footer-icon'><LinkedInIcon className='footer-social-icon' /></p></a>
+                        <a href='/'><p className='footer-icon'><TwitterIcon  className='footer-social-icon'/></p></a>
+                        <a href='/'><p className='footer-icon'><WhatsAppIcon className='footer-social-icon'/></p></a>
                     </div>                                    
                 </div>
                 
@@ -47,10 +46,10 @@ const Footer = () => {
                 </div>
                 <div className='footer-each'>
                     <h4>Hospital Hours</h4>
-                    <p>Monday-Friday 08:00-20:00</p>
-                    <p>Saturday 09:00 - 18:00</p>
-                    <p>Sunday 09:00 - 18:00</p>
-                    <p>Emergency : 24 hours</p>
+                    <p><AccessTimeIcon className='footer-time-icon'/><span className='footer-day'>Monday-Friday     </span><span className='footer-time'>08:00-20:00</span> </p>
+                    <p><AccessTimeIcon className='footer-time-icon'/><span className='footer-day'>Saturday       </span>  <span className='footer-time'>09:00 - 18:00</span></p>
+                    <p><AccessTimeIcon className='footer-time-icon'/><span className='footer-day'>Sunday </span><span className='footer-time'>09:00 - 18:00</span></p>
+                    <p><span className='footer-emergency'>Emergency : 24 hours</span></p>
                 </div>
              </div>
            

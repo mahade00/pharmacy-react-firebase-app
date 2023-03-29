@@ -1,5 +1,5 @@
 .footer{
-    margin: 25px 0px 0 155px;
+    margin: 25px 0 15px 155px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
@@ -25,6 +25,42 @@ padding-bottom: 55px;
     color:gray;
     text-decoration: none;
 }
+.footer-time-icon{
+    padding-right: 5px;
+    color: #0D6EFD;
+}
+.footer-day{
+    color:#0D6EFD;
+    font-weight: bold;
+}
+.footer-emergency{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #0D6EFD;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-time{
+    color: #0D6EFD;
+}
+
 a:link{
     text-decoration: none;
+}
+
+/* responsive */
+@media only screen and (max-width:688px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 93px;
+    }
+    .footer-each{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
 }
